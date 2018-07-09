@@ -5,7 +5,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class MenuActivity extends AppCompatActivity {
+
+    private FirebaseAuth auth;
 
     public void Database(View view) {
         startActivity(new Intent(MenuActivity.this, DatabaseActivity.class));
@@ -17,7 +21,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void SignOut(View view) {
-
+//        auth.signOut();
         startActivity(new Intent(MenuActivity.this, LoginActivity.class));
     }
 
@@ -25,5 +29,6 @@ public class MenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
+//        auth = FirebaseAuth.getInstance();
     }
 }

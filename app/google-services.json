@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "106997621891",
+    "firebase_url": "https://fir-brownbag.firebaseio.com",
+    "project_id": "fir-brownbag",
+    "storage_bucket": "fir-brownbag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106997621891:android:2775994530875725",
+        "android_client_info": {
+          "package_name": "com.example.abdi.firebasebrownbag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106997621891-t4jt8rlk56ncm67nl9dqtt0os05b7tt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAFVkyXfKaLu0EcLecV4BpdYDvwxImRPs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
